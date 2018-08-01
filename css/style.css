@@ -3,9 +3,10 @@
 h1 {
     margin: 20vw 0 0 5vw;
     font-size: 60px;
-    font-family: Courier;
+    font-family: "Trebuchet MS";
     font-weight: 400;
     color: white;
+    opacity: 0.5;
 }
 
 .crown {
