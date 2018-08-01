@@ -1,5 +1,22 @@
 /* https://css-tricks.com/myth-busting-css-animations-vs-javascript/ */
 /*https://www.paulirish.com/2012/why-moving-elements-with-translate-is-better-than-posabs-topleft/*/
+h1 {
+    margin: 20vw 0 0 5vw;
+    font-size: 60px;
+    font-family: Courier;
+    font-weight: 400;
+    color: white;
+}
+
+.crown {
+  z-index: 5;
+  position: absolute;
+  opacity: 0;
+  height:350px;
+  width: auto;
+}
+
 .logo{
 	position: relative;
+  z-index: -3;
 }
